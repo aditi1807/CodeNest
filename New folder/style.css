@@ -3,7 +3,7 @@ html,body{
 }
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(hsl(0, 0%, 100%));
+    background: linear-gradient(hsl(140, 41%, 9%));
     transition: 1s all ease-in-out;
 }
 #init{
