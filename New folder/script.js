@@ -1,113 +1,112 @@
 var data= {
     chatinit:{
-        title: ["Hello <span class='emoji'> &#128075;</span>","I am Stella","Nice to meet you!","How can I help you?"],
-        options: ["Frontend <span class='emoji'> &#128250;</span>","News","Shopping <span class='emoji'> &#128090;</span>","Music <span class='emoji'> &#127925;</span>"]
+        title: ["Hello CODER!","Nice to meet you!","Still Confused what to Choose", "Kindly tell your personality trait"],
+        options: ["Creative","Logical_Thinker","Strong_coding_skills","Analytical_Mindset"]
     },
-    Frontend: {
-        title:["Please select category"],
-        options:['Hollywood','Bollywood','Web Series','Others'],
+    Creative: {
+        title:["you should go for frontend!"],
+        options:['Frontend'],
         url : {
             more:"https://imdb.com",
-            link:["https://imdb.com","https://imdb.com","https://imdb.com","https://imdb.com"]
+            link:["https://imdb.com"]
         }
     },
     
-    news: {
-        title:["Today's Top 5 Headlines"],
-        options:["The rare green comet will make its closest pass of Earth between February 1 and February 2, according to NASA.","The rare green comet will make its closest pass of Earth between February 1 and February 2, according to NASA.","The rare green comet will make its closest pass of Earth between February 1 and February 2, according to NASA."],
+    Logical_Thinker: {
+        title:["you should opt for backend development!"],
+        options:["Backend Development"],
         url : {
             more:"https://timesofindia.indiatimes.com/defaultinterstitial.cms",
-            link:["https://timesofindia.indiatimes.com/defaultinterstitial.cms","https://timesofindia.indiatimes.com/defaultinterstitial.cms","https://timesofindia.indiatimes.com/defaultinterstitial.cms","https://timesofindia.indiatimes.com/defaultinterstitial.cms"]
+            link:["https://timesofindia.indiatimes.com/defaultinterstitial.cms"]
         }
     },
-    shopping: {
-        title:["Thanks for your response","Welcome to shopping zone <span class='emoji'> &#128090;</span>","Please select one of the below options to proceed further"],
-        options:['Electronics','Beauty products','Mobiles','Men Fashion','Women fashion'],
+    Strong_coding_skills: {
+        title:["then you should definetly go for software development"],
+        options:["Software Development"],
         url : {
             more:"https://myntra.com",
-            link:["https://myntra.com","https://myntra.com","https://myntra.com","https://myntra.com"]
+            link:["https://myntra.com"]
         }
     },
-    electronics: {
-        title:["Thanks for your response","Here are some electronic items for you","Click on it to know more"],
-        options:['Televisions','Cameras','Gaming Consoles','Headphones','Speakers'],
+    Analytical_Mindset: {
+        title:["you should opt for Data Analytics"],
+        options:["Data Analytics"],
         url : {
             more:"https://amazon.com",
-            link:["#","#","#","#","#"]
+            link:["https://amazon.com"]
         }
     },
-    beauty: {
-        title:["Thanks for your response","Here are some beauty products for you","Click on it to know more"],
-        options:['Make-up & Nails','Skin Care','Fragrance','Hair care'],
-        url : {
-            more:"https://www.dotandkey.com/",
-            link:["#","#","#","#"]
-        }
-    },
-    mobiles: {
-        title:["Thanks for your response","These are some results based on your input","Click on it to know more"],
-        options:['Mobile Phones','Cases & Covers','Power Banks','Tablets'],
-        url : {
-            more:"https://www.apple.com",
-            link:["#","#","#","#"]
-        }
-    },
-    men: {
-        title:["Thanks for your response","These are some results based on your input","Click on it to know more"],
-        options:['Clothing','Shirts','T-shirts','Innerwear','Jeans'],
-        url : {
-            more:"https://amazon.com",
-            link:["#","#","#","#","#"]
-        }
-    },
-    women: {
-        title:["Thanks for your response","These are some results based on your input","Click on it to know more"],
-        options:['Clothing','Western Wear','Ethnic Wear','Top Brands'],
-        url : {
-            more:"https://myntra.com",
-            link:["#","#","#","#"]
-        }
-    },
-    music: {
-        title:["These are some latest songs <span class='emoji'> &#127925;</span>"],
-        options: ["song 1","song 2","song 3","song 4","song 5"],
-        url : {
-            more:"https://open.spotify.com/?",
-            link:["https://open.spotify.com/?","https://open.spotify.com/?","https://open.spotify.com/?","https://open.spotify.com/?"]
-        }
-    },
-    hollywood: {
-        title: ["Thanks for your response","Here are some genre based movies"],
-        options: ["Comedy","Horror","Sci-Fi","Romance","Action"],
-        url: {
-            more:"https://imdb.com",
-            link:["#","#","#","#","#"]
-        }
-    },
-    bollywood: {
-        title: ["Thanks for your response","Here are some genre based movies"],
-        options: ["Comedy","Horror","Sci-Fi","Romance","Action"],
-        url: {
-            more:"https://imdb.com",
-            link:["#","#","#","#","#"]
-        }
-    },
-    web: {
-        title: ["Thanks for your response","Here are some genre based web series"],
-        options: ["Comedy","Horror","Sci-Fi","Romance","Action"],
-        url: {
-            more:"https://in.pinterest.com/",
-            link:["#","#","#","#","#"]
-        }
-    },
-    others: {
-        title: ["Here are some more options for you"],
-        options: ["YouTube","Netflix","Amazon Prime","Hot Star"],
-        url: {
-            more:"https://www.youtube.com/",
-            link:["#","#","#","#","#"]
-        }
-    },
+//     beauty: {
+//         title:["Thanks for your response","Here are some beauty products for you","Click on it to know more"],
+//         options:['Make-up & Nails','Skin Care','Fragrance','Hair care'],
+//         url : {
+//             more:"https://www.dotandkey.com/",
+//             link:["#","#","#","#"]
+//         }
+//     },
+//     mobiles: {
+//         title:["Thanks for your response","These are some results based on your input","Click on it to know more"],
+//         options:['Mobile Phones','Cases & Covers','Power Banks','Tablets'],
+//         url : {
+//             more:"https://www.apple.com",
+//             link:["#","#","#","#"]
+//         }
+//     },
+//     men: {
+//         title:["Thanks for your response","These are some results based on your input","Click on it to know more"],
+//         options:['Clothing','Shirts','T-shirts','Innerwear','Jeans'],
+//         url : {
+//             more:"https://amazon.com",
+//             link:["#","#","#","#","#"]
+//         }
+//     },
+//     women: {
+//         title:["Thanks for your response","These are some results based on your input","Click on it to know more"],
+//         options:['Clothing','Western Wear','Ethnic Wear','Top Brands'],
+//         url : {
+//             more:"https://myntra.com",
+//             link:["#","#","#","#"]
+//         }
+//     },
+//     music: {
+//         title:["These are some latest songs <span class='emoji'> &#127925;</span>"],
+//         options: ["song 1","song 2","song 3","song 4","song 5"],
+//         url : {
+//             more:"https://open.spotify.com/?",
+//             link:["https://open.spotify.com/?","https://open.spotify.com/?","https://open.spotify.com/?","https://open.spotify.com/?"]
+//         }
+//     },
+//     hollywood: {
+//         title: ["Thanks for your response","Here are some genre based movies"],
+//         options: ["Comedy","Horror","Sci-Fi","Romance","Action"],
+//         url: {
+//             more:"https://imdb.com",
+//             link:["#","#","#","#","#"]
+//         }
+//     },
+//     bollywood: {
+//         title: ["Thanks for your response","Here are some genre based movies"],
+//         options: ["Comedy","Horror","Sci-Fi","Romance","Action"],
+//         url: {
+//             more:"https://imdb.com",
+//             link:["#","#","#","#","#"]
+//         }
+//     },
+//     web: {
+//         title: ["Thanks for your response","Here are some genre based web series"],
+//         options: ["Comedy","Horror","Sci-Fi","Romance","Action"],
+//         url: {
+//             more:"https://in.pinterest.com/",
+//             link:["#","#","#","#","#"]
+//         }
+//     },
+//     others: {
+//         title: ["Here are some more options for you"],
+//         options: ["YouTube","Netflix","Amazon Prime","Hot Star"],
+//         url: {
+//             more:"https://www.youtube.com/",
+//             link:["#","#","#","#","#"]
+//         }
 }
 
 document.getElementById("init").addEventListener("click",showChatBot);
@@ -177,7 +176,7 @@ function handleOpt(){
     cbot.appendChild(elm);
 
     console.log(findText.toLowerCase());
-    var tempObj= data[findText.toLowerCase()];
+    var tempObj= data[findText];
     handleResults(tempObj.title,tempObj.options,tempObj.url);
 }
 

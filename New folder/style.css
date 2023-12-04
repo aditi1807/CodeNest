@@ -149,7 +149,7 @@ body{
 .opt{
     padding: 5px 20px;
     columns: rgb(228, 46, 33);
-    border: 1px solid rgb(49, 5, 91);
+    border: 1px solid rgb(218, 195, 239);
     border-radius: 1rem;
     margin: 0.3rem 0.5rem;
     display: inline-block;
@@ -165,7 +165,7 @@ body{
     display: block;
     text-align: center;
     color: aliceblue !important;
-    background: rgb(49, 5, 91);;
+    background: rgb(211, 192, 229);;
 }
 .m-link{
     text-decoration: none;
