@@ -1,112 +1,35 @@
 var data= {
     chatinit:{
         title: ["Hello CODER!","Nice to meet you!","Still Confused what to Choose", "Kindly tell your personality trait"],
-        options: ["Creative","Logical_Thinker","Strong_coding_skills","Analytical_Mindset"]
+        options: ["Creative","Logical_Thinker","Analytical_Mindset","Adaptability"]
     },
     Creative: {
-        title:["you should go for frontend!"],
+        title:["Then you should go for frontend!"],
         options:['Frontend'],
-        url : {
-            more:"https://imdb.com",
-            link:["https://imdb.com"]
+        Image : {
+            
         }
     },
     
     Logical_Thinker: {
-        title:["you should opt for backend development!"],
+        title:["we suggest you to opt for backend development!"],
         options:["Backend Development"],
         url : {
-            more:"https://timesofindia.indiatimes.com/defaultinterstitial.cms",
-            link:["https://timesofindia.indiatimes.com/defaultinterstitial.cms"]
-        }
-    },
-    Strong_coding_skills: {
-        title:["then you should definetly go for software development"],
-        options:["Software Development"],
-        url : {
-            more:"https://myntra.com",
-            link:["https://myntra.com"]
+            
         }
     },
     Analytical_Mindset: {
         title:["you should opt for Data Analytics"],
         options:["Data Analytics"],
         url : {
-            more:"https://amazon.com",
-            link:["https://amazon.com"]
+            
         }
     },
-//     beauty: {
-//         title:["Thanks for your response","Here are some beauty products for you","Click on it to know more"],
-//         options:['Make-up & Nails','Skin Care','Fragrance','Hair care'],
-//         url : {
-//             more:"https://www.dotandkey.com/",
-//             link:["#","#","#","#"]
-//         }
-//     },
-//     mobiles: {
-//         title:["Thanks for your response","These are some results based on your input","Click on it to know more"],
-//         options:['Mobile Phones','Cases & Covers','Power Banks','Tablets'],
-//         url : {
-//             more:"https://www.apple.com",
-//             link:["#","#","#","#"]
-//         }
-//     },
-//     men: {
-//         title:["Thanks for your response","These are some results based on your input","Click on it to know more"],
-//         options:['Clothing','Shirts','T-shirts','Innerwear','Jeans'],
-//         url : {
-//             more:"https://amazon.com",
-//             link:["#","#","#","#","#"]
-//         }
-//     },
-//     women: {
-//         title:["Thanks for your response","These are some results based on your input","Click on it to know more"],
-//         options:['Clothing','Western Wear','Ethnic Wear','Top Brands'],
-//         url : {
-//             more:"https://myntra.com",
-//             link:["#","#","#","#"]
-//         }
-//     },
-//     music: {
-//         title:["These are some latest songs <span class='emoji'> &#127925;</span>"],
-//         options: ["song 1","song 2","song 3","song 4","song 5"],
-//         url : {
-//             more:"https://open.spotify.com/?",
-//             link:["https://open.spotify.com/?","https://open.spotify.com/?","https://open.spotify.com/?","https://open.spotify.com/?"]
-//         }
-//     },
-//     hollywood: {
-//         title: ["Thanks for your response","Here are some genre based movies"],
-//         options: ["Comedy","Horror","Sci-Fi","Romance","Action"],
-//         url: {
-//             more:"https://imdb.com",
-//             link:["#","#","#","#","#"]
-//         }
-//     },
-//     bollywood: {
-//         title: ["Thanks for your response","Here are some genre based movies"],
-//         options: ["Comedy","Horror","Sci-Fi","Romance","Action"],
-//         url: {
-//             more:"https://imdb.com",
-//             link:["#","#","#","#","#"]
-//         }
-//     },
-//     web: {
-//         title: ["Thanks for your response","Here are some genre based web series"],
-//         options: ["Comedy","Horror","Sci-Fi","Romance","Action"],
-//         url: {
-//             more:"https://in.pinterest.com/",
-//             link:["#","#","#","#","#"]
-//         }
-//     },
-//     others: {
-//         title: ["Here are some more options for you"],
-//         options: ["YouTube","Netflix","Amazon Prime","Hot Star"],
-//         url: {
-//             more:"https://www.youtube.com/",
-//             link:["#","#","#","#","#"]
-//         }
+    Adaptability: {
+        title:["you should opt for DevOps Engineer"],
+        options:["DevOps Engineer"],
+    }
+
 }
 
 document.getElementById("init").addEventListener("click",showChatBot);
